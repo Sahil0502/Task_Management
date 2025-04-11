@@ -1,0 +1,74 @@
+.card-container {
+    display: flex;
+ 
+    align-items: center;
+    border-radius: 12px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    color: #1e293b;
+    width: 100px;
+    gap: 12px;
+    padding: 2px;
+  /* box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); */
+    margin-bottom: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 20px;
+    /* want to spread the cards to fill the screen */
+    flex: 1;
+   
+  }
+ 
+  .card-icon {
+    /* background-color: #e0e7ff; */
+    /* padding: 12px;
+    border-radius: 8px; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 20px;
+  }
+
+
+  .card-icon img {
+    width: 50px;   /* Set desired width */
+    height: 50px;  /* Set desired height */
+  }
+ 
+ 
+  .card-content {
+    display: flex;
+    flex-direction: column;
+  }
+ 
+  .card-title {
+    margin-bottom: -10px;
+    margin-left: -10px;
+    font-size: 16px;
+    font-weight: 600;
+  }
+ 
+  .card-description {
+    margin-left: -10px;
+    font-size: 14px;
+    color: #64748b;
+  }
+ 
+  /* Color Variants */
+  .card-blue { background-color: #e0f2fe; }
+  .card-green { background-color: #d1fae5; }
+  .card-yellow { background-color: #fef9c3; }
+  .card-red { background-color: #fee2e2; }
+
+
+
+
+  .card-wrapper {
+    display: flex;
+    gap: 16px;
+    margin-top: 20px;
+    flex-wrap: wrap;
+    flex-direction: row;
+  }
+
+
+

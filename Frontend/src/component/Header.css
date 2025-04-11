@@ -1,0 +1,35 @@
+.header-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #ecf3fe;
+  padding: 10px;
+  border-radius: 8px;
+  margin: 10px;
+}
+
+
+.header-content {
+  display: flex;
+  flex-direction: column;
+}
+
+
+.header-title {
+  font: bold 14px/18px tahoma,arial,verdana,sans-serif;
+  /* font-size: 17px;
+  font-weight: 600; */
+  color: #1e293b;
+  margin: 0 0 5px 0;
+}
+
+
+.header-breadcrumb {
+  font-size: 14px;
+  color: #64748b;
+  margin: 0;
+}
+
+
+
+
