@@ -1,0 +1,310 @@
+type Query {
+    getPaginatedTasks(page: Int, size: Int): PaginatedTaskResponse
+    getTotalTasksCount: Int
+}
+
+type PaginatedTaskResponse {
+    tasks: [Task]
+    totalCount: Int
+    lastUpdated: String  # Added timestamp field
+}
+
+type Task {
+    id: ID!
+    jid: String
+    dueDate: String
+    articleId: String
+    receivedDate: String
+    journalComplexity: String
+    department: String
+    taskId: Int
+    taskName: String
+    user: String
+    customer: String
+}
+
+# Other task types (Task2-Task10) remain unchanged
+type Task2 {
+    id: ID!
+    jid: String
+    dueDate: String
+    articleId: String
+    receivedDate: String
+    journalComplexity: String
+    department: String
+    taskId: Int
+    taskName: String
+    user: String
+    customer: String
+}
+
+type Task3 {
+    id: ID!
+    jid: String
+    dueDate: String
+    articleId: String
+    receivedDate: String
+    journalComplexity: String
+    department: String
+    taskId: Int
+    taskName: String
+    user: String
+    customer: String
+}
+
+type Task4 {
+    id: ID!
+    jid: String
+    dueDate: String
+    articleId: String
+    receivedDate: String
+    journalComplexity: String
+    department: String
+    taskId: Int
+    taskName: String
+    user: String
+    customer: String
+}
+
+type Task5 {
+    id: ID!
+    jid: String
+    dueDate: String
+    articleId: String
+    receivedDate: String
+    journalComplexity: String
+    department: String
+    taskId: Int
+    taskName: String
+    user: String
+    customer: String
+}
+
+type Task6 {
+    id: ID!
+    jid: String
+    dueDate: String
+    articleId: String
+    receivedDate: String
+    journalComplexity: String
+    department: String
+    taskId: Int
+    taskName: String
+    user: String
+    customer: String
+}
+
+type Task7 {
+    id: ID!
+    jid: String
+    dueDate: String
+    articleId: String
+    receivedDate: String
+    journalComplexity: String
+    department: String
+    taskId: Int
+    taskName: String
+    user: String
+    customer: String
+}
+
+type Task8 {
+    id: ID!
+    jid: String
+    dueDate: String
+    articleId: String
+    receivedDate: String
+    journalComplexity: String
+    department: String
+    taskId: Int
+    taskName: String
+    user: String
+    customer: String
+}
+
+type Task9 {
+    id: ID!
+    jid: String
+    dueDate: String
+    articleId: String
+    receivedDate: String
+    journalComplexity: String
+    department: String
+    taskId: Int
+    taskName: String
+    user: String
+    customer: String
+}
+
+type Task10 {
+    id: ID!
+    jid: String
+    dueDate: String
+    articleId: String
+    receivedDate: String
+    journalComplexity: String
+    department: String
+    taskId: Int
+    taskName: String
+    user: String
+    customer: String
+}
+
+
+
+
+
+
+
+
+
+#type Query {
+#    getPaginatedTasks(page: Int, size: Int): PaginatedTaskResponse
+#}
+#
+#type PaginatedTaskResponse {
+#    tasks: [Task]
+#    totalCount: Int
+#}
+#
+#type Task {
+#    id: ID!
+#    jid: String
+#    dueDate: String
+#    articleId: String
+#    receivedDate: String
+#    journalComplexity: String
+#    department: String
+#    taskId: Int
+#    taskName: String
+#    user: String
+#    customer: String
+#}
+#
+#type Task2 {
+#    id: ID!
+#    jid: String
+#    dueDate: String
+#    articleId: String
+#    receivedDate: String
+#    journalComplexity: String
+#    department: String
+#    taskId: Int
+#    taskName: String
+#    user: String
+#    customer: String
+#}
+#
+#type Task3 {
+#    id: ID!
+#    jid: String
+#    dueDate: String
+#    articleId: String
+#    receivedDate: String
+#    journalComplexity: String
+#    department: String
+#    taskId: Int
+#    taskName: String
+#    user: String
+#    customer: String
+#}
+#
+#type Task4 {
+#    id: ID!
+#    jid: String
+#    dueDate: String
+#    articleId: String
+#    receivedDate: String
+#    journalComplexity: String
+#    department: String
+#    taskId: Int
+#    taskName: String
+#    user: String
+#    customer: String
+#}
+#
+#type Task5 {
+#    id: ID!
+#    jid: String
+#    dueDate: String
+#    articleId: String
+#    receivedDate: String
+#    journalComplexity: String
+#    department: String
+#    taskId: Int
+#    taskName: String
+#    user: String
+#    customer: String
+#}
+#
+#type Task6 {
+#    id: ID!
+#    jid: String
+#    dueDate: String
+#    articleId: String
+#    receivedDate: String
+#    journalComplexity: String
+#    department: String
+#    taskId: Int
+#    taskName: String
+#    user: String
+#    customer: String
+#}
+#
+#type Task7 {
+#    id: ID!
+#    jid: String
+#    dueDate: String
+#    articleId: String
+#    receivedDate: String
+#    journalComplexity: String
+#    department: String
+#    taskId: Int
+#    taskName: String
+#    user: String
+#    customer: String
+#}
+#
+#type Task8 {
+#    id: ID!
+#    jid: String
+#    dueDate: String
+#    articleId: String
+#    receivedDate: String
+#    journalComplexity: String
+#    department: String
+#    taskId: Int
+#    taskName: String
+#    user: String
+#    customer: String
+#}
+#
+#type Task9 {
+#    id: ID!
+#    jid: String
+#    dueDate: String
+#    articleId: String
+#    receivedDate: String
+#    journalComplexity: String
+#    department: String
+#    taskId: Int
+#    taskName: String
+#    user: String
+#    customer: String
+#}
+#
+#type Task10 {
+#    id: ID!
+#    jid: String
+#    dueDate: String
+#    articleId: String
+#    receivedDate: String
+#    journalComplexity: String
+#    department: String
+#    taskId: Int
+#    taskName: String
+#    user: String
+#    customer: String
+#}
+#
+#
