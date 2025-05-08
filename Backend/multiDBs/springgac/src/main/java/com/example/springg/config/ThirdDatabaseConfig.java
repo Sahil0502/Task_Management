@@ -23,15 +23,6 @@ public class ThirdDatabaseConfig {
     @Bean(name = "ThirdDataSource")
     public DataSource dataSource() {
         HikariDataSource dataSource = new HikariDataSource();
-//        dataSource.setJdbcUrl("jdbc:mysql://10.0.4.189:3306/nimble_reports_elsst");
-//        dataSource.setUsername("nimbledev");
-//        dataSource.setPassword("devnimble");
-//        dataSource.setDriverClassName("com.mysql.cj.jdbc.Driver");
-
-//        dataSource.setJdbcUrl("jdbc:mysql://vsitestdb.tnq.co.in:3306/nimble_reports_elsnagmr_uat");
-//        dataSource.setUsername("nim_elsnagmr_uat");
-//        dataSource.setPassword("nimbleelsnagmruat");
-//        dataSource.setDriverClassName("com.mysql.cj.jdbc.Driver");
 
         dataSource.setJdbcUrl("jdbc:mysql://localhost:3306/sys3");
         dataSource.setUsername("root");
